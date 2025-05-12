@@ -19,7 +19,7 @@ function playPause() {
 
 const video2 = document.getElementById('video2');
 const audio2 = document.getElementById('audio2');
-document.getElementById('start').addEventListener('click', () => {
+document.getElementById('start2').addEventListener('click', () => {
     playPause2();
 });
 
@@ -38,7 +38,7 @@ function playPause2() {
 
 const video3 = document.getElementById('video3');
 const audio3 = document.getElementById('audio3');
-document.getElementById('start').addEventListener('click', () => {
+document.getElementById('start3').addEventListener('click', () => {
     playPause3();
 });
 
