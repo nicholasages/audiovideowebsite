@@ -26,7 +26,7 @@ document.getElementById('start2').addEventListener('click', () => {
 let playing2 = false;
 
 function playPause2() {
-    if (playing) {
+    if (playing2) {
         video2.pause();
         audio2.pause();
     } else {
@@ -45,7 +45,7 @@ document.getElementById('start3').addEventListener('click', () => {
 let playing3 = false;
 
 function playPause3() {
-    if (playing) {
+    if (playing3) {
         video3.pause();
         audio3.pause();
     } else {
